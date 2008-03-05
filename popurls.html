@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WWW::Popurls - Perl extension for getting news from http://popurls.com/</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:root@localhost" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<ul>
+
+		<li><a href="#export">EXPORT</a></li>
+		<li><a href="#dependencie">DEPENDENCIE</a></li>
+	</ul>
+
+	<li><a href="#see_also">SEE ALSO</a></li>
+	<li><a href="#author">AUTHOR</a></li>
+	<li><a href="#copyright_and_license">COPYRIGHT AND LICENSE</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>WWW::Popurls - Perl extension for getting news from <a href="http://popurls.com/">http://popurls.com/</a></p>
+<p>
+</p>
+<hr />
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<p>use WWW::Popurls;
+my $obj           =  WWW::Popurls-&gt;new();
+my $ResultHashRef = $obj-&gt;getNews();</p>
+<p>while ( my ($url,$name)=each(%{$ResultHashRef})){</p>
+<pre>
+        print &quot;$name =&gt; $url\n&quot;;</pre>
+<p>};</p>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p>WWW::Popurls - Perl extension for getting news from <a href="http://popurls.com/">http://popurls.com/</a></p>
+<p>
+</p>
+<h2><a name="export">EXPORT</a></h2>
+<pre>
+
+        HtmlLinkExtractor - extraction of links from html document
+        getNews - getting news
+        Get - http get method</pre>
+<p>
+</p>
+<h2><a name="dependencie">DEPENDENCIE</a></h2>
+<p>use HTML::TokeParser;
+use LWP::UserAgent;
+use HTTP::Request;
+use URI::URL;
+use strict;</p>
+<p>
+</p>
+<hr />
+<h1><a name="see_also">SEE ALSO</a></h1>
+<p><a href="http://www.zoozle.net">http://www.zoozle.net</a>
+<a href="http://www.zoozle.org">http://www.zoozle.org</a>
+<a href="http://www.zoozle.biz">http://www.zoozle.biz</a></p>
+<p>NET::IPFilterSimple
+NET::IPFilter
+WWW::CpanRecent
+WWW::Heise
+WWW::GameStar
+WWW::Popurls</p>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>Sebastian Enger, bigfish82 |ät! gmail?com</p>
+<p>
+</p>
+<hr />
+<h1><a name="copyright_and_license">COPYRIGHT AND LICENSE</a></h1>
+<p>Copyright (C) 2008 by Sebastian Enger
+
+</p>
+<p>This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+
+</p>
+
+</body>
+
+</html>

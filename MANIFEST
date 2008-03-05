@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/WWW-Popurls.t
+lib/WWW/Popurls.pm

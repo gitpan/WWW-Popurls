@@ -1,0 +1,6 @@
+Revision history for Perl extension WWW::Popurls.
+
+0.01  Wed Mar  5 01:48:06 2008
+	- original version; created by h2xs 1.23 with options
+		-AfXn WWW::Popurls
+
